@@ -10,7 +10,7 @@ public class HelloController : ControllerBase
     public IActionResult Get()
     {
         return Ok(new {
-            message = "Hello from .NET API!",
+            message = "Helo from .NET API!",
             environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT"),
             timestamp = DateTime.UtcNow
         });
